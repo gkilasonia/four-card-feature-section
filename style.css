@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", serif;
+  color: hsl(234, 12%, 34%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 85px 32px 0 32px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  opacity: 0.5;
+}
+
+.header-container {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.header-top-text {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.header-bottom-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.66;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 28px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 15px 30px -15px hsl(229, 6%, 66%);
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 8px;
+  height: 222px;
+}
+
+.card-image {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 28px;
+  align-self: flex-end;
+  width: 57px;
+  height: 57px;
+}
+/* აქ მხოლოდ სუპერვისორის ქარდზეა მორგებული სურათის ზომა. მოვარგო ყველა ქარდზე სურათის ზომა */
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
