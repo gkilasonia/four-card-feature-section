@@ -19,10 +19,10 @@
     <title>Frontend Mentor | Four card feature section</title>
   </head>
   <body>
-    <div class="two-color-div"></div>
     <main>
+      <!-- Header Section -->
       <section class="header-container">
-        <header>
+        <header class="header-section">
           <p class="header-top-text">Reliable, efficient delivery</p>
           <h1 class="header">Powered by Technology</h1>
         </header>
@@ -31,53 +31,65 @@
           points to ensure that your project is successful
         </p>
       </section>
-      <section class="card">
-        <header class="card-header">
-          <h1>Supervisor</h1>
-        </header>
-        <p>Monitors activity to identify project roadblocks</p>
-        <picture class="card-image"
-          ><img
-            class="image"
-            src="./images/icon-supervisor.svg"
-            alt="A teal magnifying glass with a white eye inside, on a blue background."
-        /></picture>
-      </section>
-      <section class="card">
-        <header class="card-header">
-          <h1>Team Builder</h1>
-        </header>
-        <p>
-          Scans our talent network to create the optimal team for your project
-        </p>
-        <picture class="card-image"
-          ><img
-            src="./images/icon-team-builder.svg"
-            alt="A red house icon with a black roof, inside a gray web browser window with a white address bar and three red dots in the top left corner."
-        /></picture>
-      </section>
-      <section class="card">
-        <header class="card-header">
-          <h1>Karma</h1>
-        </header>
-        <p>Regularly evaluates our talent to ensure quality</p>
-        <picture class="card-image"
-          ><img
-            src="./images/icon-karma.svg"
-            alt="A yellow lightbulb with an orange gear inside."
-        /></picture>
-      </section>
-      <section class="card">
-        <header class="card-header">
-          <h1>Calculator</h1>
-        </header>
-        <p>Uses data from past projects to provide better delivery estimates</p>
-        <picture class="card-image"
-          ><img
-            src="./images/icon-calculator.svg"
-            alt="A gray monitor with a blue circle and blue horizontal lines on the screen."
-        /></picture>
-      </section>
+      <!-- Card Container -->
+      <div class="container">
+        <!-- Card Supervisor -->
+        <section class="card card-supervisor">
+          <header class="card-header">
+            <h1>Supervisor</h1>
+          </header>
+          <p>Monitors activity to identify project roadblocks</p>
+          <picture class="card-image"
+            ><img
+              class="image"
+              src="./images/icon-supervisor.svg"
+              alt="A teal magnifying glass with a white eye inside, on a blue background."
+          /></picture>
+        </section>
+        <!-- Card Team Builder -->
+        <section class="card card-team-builder">
+          <header class="card-header">
+            <h1>Team Builder</h1>
+          </header>
+          <p>
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <picture class="card-image"
+            ><img
+              class="image"
+              src="./images/icon-team-builder.svg"
+              alt="A red house icon with a black roof, inside a gray web browser window with a white address bar and three red dots in the top left corner."
+          /></picture>
+        </section>
+        <!-- Card Karma -->
+        <section class="card card-karma">
+          <header class="card-header">
+            <h1>Karma</h1>
+          </header>
+          <p>Regularly evaluates our talent to ensure quality</p>
+          <picture class="card-image"
+            ><img
+              class="image"
+              src="./images/icon-karma.svg"
+              alt="A yellow lightbulb with an orange gear inside."
+          /></picture>
+        </section>
+        <!-- Card Calculator -->
+        <section class="card card-calculator">
+          <header class="card-header">
+            <h1>Calculator</h1>
+          </header>
+          <p>
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <picture class="card-image"
+            ><img
+              class="image"
+              src="./images/icon-calculator.svg"
+              alt="A gray monitor with a blue circle and blue horizontal lines on the screen."
+          /></picture>
+        </section>
+      </div>
     </main>
 
     <footer>
